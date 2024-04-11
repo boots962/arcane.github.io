@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     print(request.environ.get('HTTP_X_REAL_IP', request.remote_addr)  )
-    return render_template('index.php')
+    return render_template('index.html')
 
 @app.route("/Images")
 def images():
