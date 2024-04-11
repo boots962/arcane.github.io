@@ -1,0 +1,263 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background: #96a377;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+}
+
+.foot {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    z-index: 1001;
+} 
+
+#navbar__logo {
+    z-index: 1000;
+    background:#47833542;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#000;
+    font-style: normal;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border: none;
+    height:100%;
+    top: 150px;
+    font-size: 2rem;
+    z-index: 1001;
+}
+
+
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+    right:20px;
+    z-index: 1001;
+    color: #000;
+}
+
+.navbar__links {
+  color: #000;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    z-index: 1001;
+}
+
+.navbar__btn {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    z-index: 1001;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height:100%;
+    width:100%;
+    border:none;
+    outline:none;
+    border-radius: 4px;
+    background:#478335;
+    color: #fff;
+    z-index: 1001;
+}
+
+.button:hover {
+    background: #92f508;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+    color: #15f153;
+    transition: all 0.3s ease;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(#4686cfd5, #a87c7c);
+    font-family: "Euclid Circular A", "Poppins";
+    color: #d6dfed;
+    top: 100;
+  }
+  
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  .background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .socials {
+    gap: 20px;
+  }
+  
+  .socials a {
+    font-size: 24px;
+  }
+  
+  .links {
+    gap: 10px;
+  }
+  
+  .legal {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 370px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    width: 100%;
+  }
+  
+  @media (width > 420px) {
+    section {
+      align-items: center;
+      padding-left: 0;
+      gap: 20px;
+    }
+  
+    .links {
+      gap: 20px;
+    }
+  }
+
+
+  .finish_title{
+    position:absolute;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    top: 640px;
+    left: 45%;
+    text-decoration: none;
+    cursor: none;
+    border:none;
+    outline:none;
+    border-radius: 2px;
+    background:#478335;
+    color: #fff;
+    z-index: 2;
+  }
+
+  .finish{
+    position:absolute;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.75vmin;
+    width:100%;
+    left: -20px;
+    border: 15 #817348;
+    border-radius: 50px;
+    color: #000;
+    background: #72bc52;
+    padding: 0 50px;
+    margin: 20px;
+    top: 600px;
+    z-index: 1;
+  }
+  .custom-shape-divider-top-1712454902 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 1000;
+}
+
+.custom-shape-divider-top-1712454902 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 204px;
+    transform: rotateY(180deg);
+    z-index: 1000;
+}
+
+.custom-shape-divider-top-1712454902 .shape-fill {
+    fill: #fff;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Arcane Landscaping</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='about.css') }}">
+</head>
+<body>
+    <nav class="navbar"> </nav>
+
+    <div class="navbar__container">
+        <a href="/" id="navbar__logo">
+            <img src="static/images/icon.png" alt="" width="100px" height="100px">
+            <p>
+                Arcane Landscaping
+            </p>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="/" class="navbar__links">
+                    Home
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/Images" class="navbar__links">
+                    Images
+                </a>
+            </li>
+            <li class="navbar__item">
+                <a href="/about-us" class="navbar__links">
+                    About us
+                </a>
+            </li>
+            <li class="navbar__btn">
+                <a href="/" class="button">
+                    Contact us
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="image-list">
+        <li>
+            <a href="">
+                <figure>
+                    <img src='static/images/backyard.png' alt='' width="20%" height="auto">
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='static/images/backyard2.png' alt='' width="20%" height="auto">
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src="static/images/lawn.png" alt="" width="20%" height="auto">
+                </figure>
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
