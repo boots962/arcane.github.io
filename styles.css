@@ -128,17 +128,11 @@
 
 body {
     margin: 0;
-    background: linear-gradient(#4686cfd5, #a87c7c);
-    font-family: "Euclid Circular A", "Poppins";
-    color: #d6dfed;
-    top: 100;
+    background: #00000080;
   }
   
   
   html,
-  body {
-    height: 100%;
-  }
   
   .background {
     position: absolute;
@@ -180,7 +174,6 @@ body {
     bottom: 0;
     display: flex;
     width: 100%;
-    height: 370px;
   }
   
   section {
@@ -215,13 +208,16 @@ body {
     top: 640px;
     left: 45%;
     text-decoration: none;
-    cursor: none;
     border:none;
     outline:none;
     border-radius: 2px;
     background:#478335;
     color: #fff;
     z-index: 2;
+  }
+  .finish_title:hover{
+    color: #131313;
+    transition: all 0.3s ease-in;
   }
 
   .finish{
@@ -260,4 +256,17 @@ body {
 
 .custom-shape-divider-top-1712454902 .shape-fill {
     fill: #fff;
+}
+
+
+.contacts{
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  border-radius: 16px ;
+  width:fit-content;
+  padding: 10px 20px;
+  background: #426e48;
+  z-index: 1001;
 }
